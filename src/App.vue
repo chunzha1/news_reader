@@ -7,7 +7,7 @@
 
 <script>
 import NewsReader from './components/NewsReader.vue'
-import MyImage from './components/Heart.vue'
+import Heart from './components/Heart.vue'
 
 export default {
   name: 'App',
