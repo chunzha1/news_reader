@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <NewsReader />
+    <Heart />
   </div>
 </template>
 
 <script>
 import NewsReader from './components/NewsReader.vue'
+import MyImage from './components/Heart.vue'
 
 export default {
   name: 'App',
   components: {
-    NewsReader
+    NewsReader,
+    Heart
   }
 }
 </script>
@@ -24,4 +27,3 @@ export default {
   margin-top: 60px;
 }
 </style>
-
