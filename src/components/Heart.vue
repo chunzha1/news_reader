@@ -35,7 +35,7 @@ img:hover {
 .image-container {
   display: grid;
   place-content: center;
-  background: #f9ffb4;
+  background: transparent;
   filter: drop-shadow(0 0 10px #cc333f);
 }
 </style>
